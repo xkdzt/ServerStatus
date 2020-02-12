@@ -34,10 +34,10 @@ docker run -d --restart=always --name=serverstatus -v ~/config.json:/ServerStatu
 
 【客户端】：
 ```bash
-wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER={$SERVER} USER={$USER} PASSWORD={$PASSWORD} >/dev/null 2>&1 &
+wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/xkdzt/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER={$SERVER} USER={$USER} PASSWORD={$PASSWORD} >/dev/null 2>&1 &
 
 eg:
-wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/cppla/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=45.79.67.132 USER=s04  >/dev/null 2>&1 &
+wget --no-check-certificate -qO client-linux.py 'https://raw.githubusercontent.com/xkdzt/ServerStatus/master/clients/client-linux.py' && nohup python client-linux.py SERVER=45.79.67.132 USER=s04  >/dev/null 2>&1 &
 ```
 
 # 手动安装教程：     
