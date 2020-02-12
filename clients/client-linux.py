@@ -125,10 +125,8 @@ def liuliang():
 	for line in vnstat:
 		if line[0:4] == "m;0;":
 			mdata=line.split(";")
-# 			NET_IN=int(mdata[5])*1024*1024
-# 			NET_OUT=int(mdata[6])*1024*1024
-			NET_IN=int(mdata[5])
- 			NET_OUT=int(mdata[6])
+			NET_IN=int(mdata[3])*1024*1024
+			NET_OUT=int(mdata[4])*1024*1024
 			break
 	return NET_IN, NET_OUT
 
